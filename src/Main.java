@@ -8,8 +8,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int total = balance + transfer + bonus;
+        int finalBalance = balance + transfer + bonus;
         System.out.println(bonus);
-        System.out.println(total);
+        System.out.println(finalBalance);
     }
 }
